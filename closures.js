@@ -23,7 +23,9 @@ function outer() {
 */
   
 // Code Here
-
+function inner() {
+  
+}
 
 
 //Once you do that, invoke inner.
