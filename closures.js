@@ -24,7 +24,7 @@ function outer() {
   
 // Code Here
 function inner() {
-  
+
 }
 
 
@@ -54,7 +54,14 @@ function callFriend(name) {
 */
 
 //Code Here
-
+function callJake(name) {
+  var name = 'Jake'
+   function dial(number) {
+     var number = '435-555-9248'
+    return 'Calling' + name + ' at ' + number
+  }
+  return dial;
+}
 
 
 ////////// PROBLEM 3 //////////
@@ -64,15 +71,17 @@ function callFriend(name) {
 */
 
 //Code Here
+function makeCounter() {
 
+}
 
 
 //Uncomment this once you make your function
-//   var count = makeCounter();
-//   count(); // 1
-//   count(); // 2
-//   count(); // 3
-//   count(); // 4
+  var count = makeCounter();
+  count();    //1
+  count();   // 2
+  count();    //3
+  count();    //4
 
 
 
@@ -89,6 +98,12 @@ function callFriend(name) {
 
 function counterFactory(value) {
   // Code here.
+  function inc() {
+
+  }
+  function dec() {
+    
+  }
 
   return {
 
